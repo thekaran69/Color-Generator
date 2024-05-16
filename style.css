@@ -6,3 +6,50 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+body{
+    background-color: #e3f2fd;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .color{
+    list-style: none;
+    text-align: center;
+    margin: 13px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(52, 86, 220, 0.519);
+    transition: transform 0.3s ease;
+}
+
+.container .color:active{
+    transform: scale(0.95);
+}
+
+
+.color .rect-box{
+    width: 185px;
+    height: 188px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.color:hover .rect-box{
+    filter: brightness(106%);
+}
+.color .hex-value{
+    display: block;
+    color: #444;
+    margin: 12px 0 8px ;
+    font-size: 1.15rem;
+    font-weight: 500;
+
+}
