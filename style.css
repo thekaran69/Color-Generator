@@ -53,3 +53,22 @@ body{
     font-weight: 500;
 
 }
+
+
+.refresh-btn{
+    position: fixed;
+    left: 50%;
+    bottom: 40px;
+    padding: 12px 20px;
+    outline: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    background-color: blueviolet;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 25px rgba(52, 86, 220, 0.519);
+    transform: translateX(-50%);
+
+}
