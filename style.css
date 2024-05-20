@@ -10,6 +10,16 @@
 body{
     background-color: #e3f2fd;
 }
+h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3140ee;
+    text-decoration: underline;
+}
 
 .container{
     margin: 20px;
@@ -51,6 +61,7 @@ body{
     margin: 12px 0 8px ;
     font-size: 1.15rem;
     font-weight: 500;
+    text-transform: uppercase;
 
 }
 
@@ -71,4 +82,25 @@ body{
     box-shadow: 0 15px 25px rgba(52, 86, 220, 0.519);
     transform: translateX(-50%);
 
+}
+
+@media screen and (max-width: 510px) {
+    .container{
+        margin: 10px;
+    }
+    .container .color{
+        margin: 8px;
+        padding: 5;
+    }
+    .color .rect-box{
+        width: 145px;
+        height: 148px;
+    }
+    .color .hex-value{
+        font-size: 1.05rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    
 }
